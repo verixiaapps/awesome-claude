@@ -22,8 +22,18 @@ brandDomain: hostdefi.com
 websiteUrl: "https://hostdefi.com"
 documentationUrl: "https://hostdefi.com/docs/api/"
 installable: true
+installCommand: "claude mcp add --transport http hostdefi https://hostdefi.com/api/v1/mcp"
 usageSnippet: "Add the hosted remote server https://hostdefi.com/api/v1/mcp — no local install or API key needed."
 copySnippet: |-
+  {
+    "mcpServers": {
+      "hostdefi": {
+        "type": "url",
+        "url": "https://hostdefi.com/api/v1/mcp"
+      }
+    }
+  }
+configSnippet: |-
   {
     "mcpServers": {
       "hostdefi": {
@@ -38,9 +48,9 @@ prerequisites:
   - A Claude client that supports remote (URL) MCP servers.
   - Nothing else — the endpoint is hosted and keyless.
 safetyNotes:
-  - Read-only data service: it returns token grades and market data and performs no writes, trades, or wallet actions.
+  - "Read-only data service: it returns token grades and market data and performs no writes, trades, or wallet actions."
 privacyNotes:
-  - Queries include token addresses only; no credentials or local files are sent. Fair-use rate limit of 100 checks/day per IP.
+  - "Queries include token addresses only; no credentials or local files are sent. Fair-use rate limit of 100 checks/day per IP."
 tags:
   - token-safety
   - defi
