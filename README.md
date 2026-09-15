@@ -1002,6 +1002,8 @@ Get a free API key on https://app.zyntra.app/
 - **[Workato](https://heyclau.de/entry/tools/workato)** - Enterprise automation platform for business integrations, workflows, data processes, and AI-assisted automation.
 - **[Zapier AI](https://heyclau.de/entry/tools/zapier-ai)** - Automation platform with AI-assisted workflows, app integrations, agents, actions, and business process automation.
 - **[Zed](https://heyclau.de/entry/tools/zed)** - Collaborative code editor with AI assistance, fast native performance, and developer-focused collaboration workflows.
+- [HostDeFi](https://hostdefi.com) - Agent-ready token-safety scanner with a public A2A agent card, hosted MCP server and x402-paid endpoints for autonomous checks.
+
 
 ## 🧠 Skills (179)
 
